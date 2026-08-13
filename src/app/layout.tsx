@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Network Pass — Your community, in one pass",
+  title: "Network Pass — Pay 1 fee. Live anywhere.",
   description:
-    "Network Pass is a membership and payments app for communities. Pay, book events and experiences, and unlock benefits from one pass.",
+    "A global lifestyle membership for places to live, food, workspaces, events, experiences, and built-in community across a growing network of locations.",
 };
 
 export default function RootLayout({
