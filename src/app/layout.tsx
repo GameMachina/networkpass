@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NS Pass Master - Join the Waitlist",
-  description: "Take a screenshot. Save anything with a screenshot.",
+  title: "Network Pass — Your community, in one pass",
+  description:
+    "Network Pass is a membership and payments app for communities. Pay, book events and experiences, and unlock benefits from one pass.",
 };
 
 export default function RootLayout({
@@ -24,9 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>
